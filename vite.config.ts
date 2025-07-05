@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/grand-financial-tool/', // 这里是关键，必须和你的仓库名一致
+  base: '/grand-financial-tool/', // ✅ 必须和你的仓库名一模一样
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
